@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 11.0.3, 2023-10-07T17:02:15. -->
+<!-- Written by QtCreator 11.0.3, 2023-10-07T21:44:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -297,9 +297,9 @@
     <value type="int" key="PE.EnvironmentAspect.Base">0</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Test</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:C:/Users/jrp04/Documents/Next_Beat_GUI/Test.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/jrp04/Documents/Next_Beat_GUI/Test.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Next_Beat</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:C:/Users/jrp04/Documents/Next_Beat_GUI/Next_Beat.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/jrp04/Documents/Next_Beat_GUI/Next_Beat.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
    </valuemap>

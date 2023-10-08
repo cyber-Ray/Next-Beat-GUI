@@ -13,54 +13,33 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(25, 20, 20);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="gridLayoutWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>120</y>
-      <width>191</width>
-      <height>231</height>
+      <x>50</x>
+      <y>170</y>
+      <width>265</width>
+      <height>191</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="5" column="0" colspan="2">
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="text">
-        <string>SIgn Up</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QLineEdit" name="lineEdit_2"/>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEdit_3"/>
-     </item>
-     <item row="2" column="0">
-      <widget class="QLabel" name="label_3">
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Username:</string>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0" colspan="2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
       <widget class="QLabel" name="label">
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <family>MS UI Gothic</family>
+         <pointsize>50</pointsize>
         </font>
        </property>
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>NextBeat</string>
@@ -70,36 +49,91 @@
        </property>
       </widget>
      </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_2">
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <family>MS UI Gothic</family>
+         <pointsize>20</pointsize>
         </font>
        </property>
-       <property name="text">
-        <string>Password:</string>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
        </property>
-       <property name="scaledContents">
-        <bool>true</bool>
+       <property name="text">
+        <string>Login/Register</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </item>
-     <item row="4" column="0" colspan="2">
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>Login</string>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
        </property>
-      </widget>
-     </item>
-     <item row="1" column="0" colspan="2">
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string/>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
        </property>
-      </widget>
+      </spacer>
      </item>
     </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>370</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(25, 20, 20);
+background-color: rgb(30, 215, 96);
+
+button-&gt;setStyleSheet(QString::fromUtf8(&quot;QPushButton{background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,&quot;
+  &quot;stop: 0 white, stop: 1 grey);&quot;
+  &quot;border-style: solid;&quot;
+  &quot;border-width: 2px;&quot;
+  &quot;border-color: black;&quot;
+  &quot;border-radius: 15px;}&quot;));
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+add border-spacing: 0</string>
+    </property>
+    <property name="text">
+     <string>Spotify</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
